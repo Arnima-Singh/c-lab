@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    float num = 5.9;
+    int x = (int) num;
+    printf("Float: %.2f\nInt after casting: %d\n", num, x);
+    return 0;
+}
