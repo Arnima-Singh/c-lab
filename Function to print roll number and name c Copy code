@@ -1,0 +1,9 @@
+#include <stdio.h>
+void studentInfo() {
+    printf("Roll No: 101\n");
+    printf("Name: Arnima\n");
+}
+int main() {
+    studentInfo();
+    return 0;
+}
