@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int x;
+    float y, sum;
+    printf("Enter an integer: ");
+    scanf("%d", &x);
+    printf("Enter a float: ");
+    scanf("%f", &y);
+    sum = x + y;
+    printf("Sum = %.2f\n", sum);
+    return 0;
+}
